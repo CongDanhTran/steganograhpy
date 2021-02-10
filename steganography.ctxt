@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=steganography
+comment0.text=\r\n\ @version\ 3.0\r\n\ @author\ Pratheek,\ Andy,\ Harry\r\n\ \r\n\ \r\n
+comment1.params=
+comment1.target=steganography()
+comment2.params=id\ password\ reduceBitImage
+comment2.target=void\ hideImage(int,\ int,\ int)
+comment2.text=\r\n\ Hide\ the\ image\ using\ 2\ parameter\r\n\ \r\n\ @param\ id\ the\ first\ key\ to\ encrypt\ the\ file\r\n\ @param\ password\ the\ second\ key\ to\ encrypt\ the\ file\r\n
+comment3.params=id\ password\ useless
+comment3.target=void\ restoreImage(int,\ int,\ int)
+comment3.text=\r\n\ Restore\ the\ image\ by\ using\ 3\ different\ keys\r\n\r\n\ @param\ id\r\n\ @param\ password\ \r\n\ @param\ useless\r\n
+comment4.params=id\ password
+comment4.target=void\ encryptImage(int,\ int)
+comment4.text=\r\n\ Encrypted\ file\ or\ image\ by\ using\ 2\ parameter\ \r\n\ \r\n\ @param\ id\ the\ first\ key\ to\ encrypt\ the\ file\r\n\ @param\ password\ the\ second\ key\ to\ encrypt\ the\ file\r\n\ @throws\ NullPointerException\ \r\n
+comment5.params=reduceBitImage
+comment5.target=void\ hideFileinPicture(int)
+comment5.text=\r\n\ Hiding\ the\ picture\ in\ a\ file\ using\ a\ try-catch\ block\ and\ byte\ array\r\n\ \r\n\ @throws\ Exception\r\n\ @exception\ IOException\r\n\ \r\n
+comment6.params=uselessByte
+comment6.target=void\ restoreEncryptedFileInImage(int)
+comment6.text=\r\n\ Restoring\ the\ Encrypted\ File\ in\ an\ image\r\n\ It\ converts\ the\ file\ into\ byte\ array\ and\ then\ takes\ separate\ the\ byte\ array\r\n\ \r\n\ @param\ id\r\n\ @param\ password\r\n\ @param\ byte\ array\r\n\ @param\ uselessByte\r\n\ @throws\ Exception\r\n\ @exception\ IOException\r\n\ @return\ file\ cannot\ be\ read\r\n\ @exception\ OutOfMemory\r\n\ @return\ run\ out\ heap\ memory\r\n\ @exception\ NegativeArraySizeException\r\n\ @return\ wrong\ key\r\n\ \r\n
+comment7.params=id\ password
+comment7.target=void\ decryptImage(int,\ int)
+comment7.text=\r\n\ Decrypting\ the\ Image\ from\ the\ hidden\ picture\r\n\ \r\n\ @param\ id\r\n\ @param\ password\r\n\ @exception\ NullPointerException\r\n
+comment8.params=bit\ inputbyte
+comment8.target=byte[]\ reduceBitImage(int,\ byte[])
+comment8.text=\r\n\ This\ method\ will\ reduce\ a\ certain\ bit\ of\ the\ image\ then\ return\ a\ new\ byte\ array.\r\n\ \r\n\ @param\ bit\r\n\ @param\ inputbyte\r\n
+numComments=9
